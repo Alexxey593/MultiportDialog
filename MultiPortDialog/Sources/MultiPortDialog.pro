@@ -41,8 +41,6 @@ SOURCES += main.cpp\
     hexvalidator.cpp \
     sendfilelinethread.cpp \
     dialogsshpref.cpp \
-#    simpletextview/simpletextview.cpp \
-#    simpletextview/simpletextviewer_p.cpp \
     indicator.cpp
 
 HEADERS  += mainwindow.h \
@@ -61,8 +59,6 @@ HEADERS  += mainwindow.h \
     hexvalidator.h \
     sendfilelinethread.h \
     dialogsshpref.h \
-#    simpletextview/simpletextview.h \
-#    simpletextview/simpletextviewer_p.h \
     indicator.h
 
 FORMS    += mainwindow.ui \    
@@ -72,13 +68,12 @@ FORMS    += mainwindow.ui \
     dialogsshpref.ui
 
 INCLUDEPATH += ./hexedit \
-               ../../../Shared/Network \
                ./simpletextview
 
 win32: {
     LIBS += Ws2_32.lib
-    SOURCES += ../../../Shared/Network/pinger.cpp
-    HEADERS  += ../../../Shared/Network/pinger.h
+    SOURCES += pinger.cpp
+    HEADERS  += pinger.h
 }
 
 RESOURCES += \
