@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>im/Graph.png</file>
+        <file>im/oszillograph.png</file>
+    </qresource>
+</RCC>

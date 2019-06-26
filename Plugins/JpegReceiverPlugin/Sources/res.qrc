@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/JpegReceiverPlugin">
+        <file>im/icon.png</file>
+        <file>translation/JpegReceiverPlugin_ru.qm</file>
+    </qresource>
+</RCC>

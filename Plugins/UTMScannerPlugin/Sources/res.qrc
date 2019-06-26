@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/UTMScannerPlugin">
+        <file>im/icon.png</file>
+        <file>translation/UTMScannerPlugin_ru.qm</file>
+    </qresource>
+</RCC>

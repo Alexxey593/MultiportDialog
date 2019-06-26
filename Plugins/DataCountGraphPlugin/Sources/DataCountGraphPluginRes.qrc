@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/DataCountGraphPlugin">
+        <file>im/Graph.png</file>
+        <file>translation/DataCountGraphPlugin_ru.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>im/folder.png</file>
+        <file>im/Record.png</file>
+        <file>im/Stop.png</file>
+        <file>im/Exit.png</file>
+        <file>im/Play.png</file>
+        <file>im/Info.png</file>
+        <file>im/PrefWheel.png</file>
+        <file>im/clear.png</file>
+        <file>im/view-refresh.png</file>
+        <file>im/icon_check.png</file>
+        <file>im/Add(5).png</file>
+        <file>im/minus.png</file>
+        <file>im/send.png</file>
+        <file>im/configure.png</file>
+        <file>im/documentinfo.png</file>
+        <file>im/exit(2).png</file>
+        <file>im/terminal.png</file>
+        <file>im/jpg file.png</file>
+        <file>im/ascii.png</file>
+        <file>im/hex.png</file>
+        <file>translation/MultiPortDialog_ru.qm</file>
+        <file>im/signal0.png</file>
+        <file>im/signal1.png</file>
+        <file>im/signal2.png</file>
+        <file>im/signal3.png</file>
+        <file>im/signal4.png</file>
+        <file>im/lines.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogInfo</class>
+ <widget class="QDialog" name="DialogInfo">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>341</width>
+    <height>174</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string extracomment="Информация о порте">Port info</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="lbPort">
+     <property name="text">
+      <string extracomment="Порт:">Port:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbDescription">
+     <property name="text">
+      <string extracomment="Описание:">Description:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbManufacturer">
+     <property name="text">
+      <string extracomment="Производитель:">Manufacturer:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbLocation">
+     <property name="text">
+      <string extracomment="Расположение:">Path:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbVid">
+     <property name="text">
+      <string>Vendor ID:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbPid">
+     <property name="text">
+      <string>Product ID:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btOK">
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btOK</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogInfo</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>148</x>
+     <y>156</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>204</x>
+     <y>171</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

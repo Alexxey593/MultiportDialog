@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>im/icon.png</file>
+        <file>translation/PTCR96Plugin_ru.qm</file>
+    </qresource>
+</RCC>
